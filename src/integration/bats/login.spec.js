@@ -9,7 +9,7 @@ context('Login Test', () => {
         cy.get("#um-submit-btn").click();      
     })
   
-    it('Should be able to login with valid credentials', () => {
+    it('Should not be able to login with invalid credentials', () => {
         cy.visit("https://tech.wiki/login/");
         cy.get("#username-117").type("rajvasikarlaa");
         cy.get("#user_password-117").type("splendor");
