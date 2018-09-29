@@ -3,5 +3,7 @@
     "fileServerFolder": "./src",
     "fixturesFolder": "./src/fixtures",
     "integrationFolder": "./src/integration",
-    "pluginsFile": "./src/plugins/index.js"
+    "pluginsFile": "./src/plugins/index.js",
+    "screenshotsFolder" : "./scr/screenshots",
+    "videosFolder": "./src/videos"
 }
