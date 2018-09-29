@@ -1,1 +1,7 @@
-{}
+{
+    "baseUrl": "https://tech.wiki",
+    "fileServerFolder": "./src",
+    "fixturesFolder": "./src/fixtures",
+    "integrationFolder": "./src/integration",
+    "pluginsFile": "./src/plugins/index.js"
+}
