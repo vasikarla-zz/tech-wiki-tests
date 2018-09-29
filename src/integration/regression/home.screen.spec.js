@@ -26,29 +26,5 @@ context('Home Screen Test Suite', () => {
         cy.get('div[data-key="confirm_user_password"] > .um-field-label > label').should("be.visible");
         cy.get('#confirm_user_password-476').should("be.visible");
         cy.get('#um-submit-btn').should("be.visible");
-    });
-
-    it("Should display `Create your technical profile`", () => {
-        cy.get('.td_uid_21_5bafcd36da388_rand > :nth-child(1)').should("be.visible");
-    });
-
-    it("Should display `Discover What's New`", () => {
-        cy.get('.td_uid_23_5bafcd36db425_rand > :nth-child(1)').should("be.visible");
-    })
-
-    it("Should display `Get ideas & insights`", () => {
-        cy.get('.td_uid_25_5bafcd36dc438_rand > :nth-child(1)').should("be.visible");
-    })
-
-    it("Should display `Discover life-changing opportunities`", () => {
-        cy.get('.td_uid_31_5bafcd36ddcab_rand > :nth-child(1)').should("be.visible");
-    })
-    
-    it("Should display `Subscribe to our curated list`", () => {
-        cy.get('.td_uid_33_5bafcd36decae_rand > :nth-child(1)').should("be.visible");
-    })
-    
-    it("Should display `Share data, create “teams”`", () => {
-        cy.get('.td_uid_35_5bafcd36dfcbd_rand > :nth-child(1)').should("be.visible");
-    })    
-  })
+    });   
+  });
